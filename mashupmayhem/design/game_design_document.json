@@ -1,0 +1,64 @@
+{
+  "title": "Mashup Mayhem",
+  "language": [
+    "en"
+  ],
+  "hook": "Invent wild solutions under pressure",
+  "game_overview": "A frantic multiplayer party game where players combine bizarre random objects to survive outrageous situations and win votes.",
+  "artstyle": "cartoon",
+  "genre": "party",
+  "winning_condition": "Achieve the highest cumulative score from AI judging and player votes across all rounds, or win the final stage in Team Chaos and Tournament brackets.",
+  "losing_condition": "Finish below first place when the final round ends, or be eliminated during a Tournament knockout or Sudden Death tiebreaker.",
+  "player_mode": "multi_player",
+  "supported_orientations": [
+    "landscape",
+    "portrait"
+  ],
+  "input_methods": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": true,
+  "mobile_playable": true,
+  "tv_playable": false,
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "Keyboard / On-Screen Mobile Keyboard",
+      "action": "Type creative solutions in the answer box, use safe text chat, and enter private room codes."
+    },
+    {
+      "input": "Mouse Click / Touch Tap",
+      "action": "Select game modes, customize match rules, reveal mystery objects, cast player votes, trigger quick emoji reactions, and equip cosmetics."
+    },
+    {
+      "input": "Enter Key / Submit Tap",
+      "action": "Lock in your invented solution early for a speed bonus before the round timer expires."
+    },
+    {
+      "input": "Number Keys 1-5 / Quick-Tap Pills",
+      "action": "Cast votes during the voting phase or fire quick reaction stickers during answer reveals."
+    },
+    {
+      "input": "Virtual Touch Controls (Mobile)",
+      "action": "Large touch-friendly action buttons for Ready, Submit Answer, Vote, Quick Reactions, and Navigation Drawer."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Structural Integrity",
+      "content": "Flow: Main Hub (with top-right 'Sign in or Log in' button, prominent 'Tutorial' button launching the 4-step interactive tutorial on demand, Global Leaderboard & Top Contenders preview, Play Modes, Cross-Device Quick Match, Private Room Join/Host, Daily Mayhem, Daily Missions, Mayhem Level Badge) -> Account Modal (Sign Up / Log In / Switch / Log Out) -> Profile/Cosmetics Locker -> Global Leaderboard & Social Drawer -> Active Match Room (Lobby -> Countdown -> Reveal -> Write -> Vote -> Judge -> Podium -> Rematch). Per-account persistent profile storage saves salted-hashed credentials, XP, coins, Mayhem Level/attempt count, stats, Global Leaderboard scores, unlocked cosmetics, friends, and match highlights.",
+      "summary": "Seamless multi-screen flow and per-account persistent storage."
+    },
+    {
+      "title": "Core Loop",
+      "content": "Match Flow: Main Hub (with top-right 'Sign in or Log in' account system, prominent 'Tutorial' button, and Global Leaderboard) -> Cross-Device Online Matchmaking -> Dramatic 3-2-1 Countdown -> Wildcard Modifier Wheel (when active) -> Random Object Reveal (3\u20135+ bizarre items + icons) -> Outrageous Situation & Escalating Restriction Presentation -> Answer-Writing Timer (scaled by Mayhem Level, with optional 1-per-match 'Mashup Spark' hint dice & early submit bonus) -> Anonymous Submissions Showcase -> Player Voting Phase (duplicate/self-vote blocked) -> AI Judge Breakdown (Creativity, Humor, Originality, Relevance + brief rationale, Round Mini-Awards & Comedy Streak bonus) -> Live Scoreboard Update & Stage Reactions -> Grand Winner Podium, Confetti Celebration, XP/Coin/Badge Rewards, Global Rank Climb summary, Mayhem Level Up, and Instant Rematch.",
+      "summary": "Direct Hub launch with on-demand tutorial, accounts, and eight-stage game-show round cadence."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": [
+    {
+      "name": "classicWriteSeconds",
+      "type": "number",
+      "label": "Classic Write Timer (s)",
+      "default": 45,
+      "min": 15,
+      "max": 90,
+      "step": 5
+    },
+    {
+      "name": "speedWriteSeconds",
+      "type": "number",
+      "label": "Speed Madness Timer (s)",
+      "default": 10,
+      "min": 5,
+      "max": 25,
+      "step": 5
+    },
+    {
+      "name": "voteSeconds",
+      "type": "number",
+      "label": "Voting Timer (s)",
+      "default": 20,
+      "min": 10,
+      "max": 45,
+      "step": 5
+    },
+    {
+      "name": "objectsPerRound",
+      "type": "number",
+      "label": "Objects Per Round",
+      "default": 3,
+      "min": 2,
+      "max": 5,
+      "step": 1
+    },
+    {
+      "name": "aiJudgeWeight",
+      "type": "number",
+      "label": "AI Judge Weight (%)",
+      "default": 60,
+      "min": 20,
+      "max": 100,
+      "step": 10
+    },
+    {
+      "name": "wildcardChance",
+      "type": "number",
+      "label": "Wildcard Trigger Chance",
+      "default": 0.45,
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    },
+    {
+      "name": "tournamentRounds",
+      "type": "number",
+      "label": "Tournament Rounds",
+      "default": 3,
+      "min": 1,
+      "max": 10,
+      "step": 1
+    },
+    {
+      "name": "defaultMusicVolume",
+      "type": "number",
+      "label": "Default Music Volume",
+      "default": 0.35,
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    }
+  ],
+  "values": {
+    "classicWriteSeconds": 45,
+    "speedWriteSeconds": 10,
+    "voteSeconds": 20,
+    "objectsPerRound": 3,
+    "aiJudgeWeight": 60,
+    "wildcardChance": 0.45,
+    "tournamentRounds": 3,
+    "defaultMusicVolume": 0.35
+  }
+}
